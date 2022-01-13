@@ -1,0 +1,25 @@
+#nav{
+    cursor:pointer;
+}
+.active{
+    color:dodgerblue;
+}
+
+.add-guitars{
+    display:flex;
+}
+.add-cycling, .add-snowboarding{
+    display:none;
+}
+
+input{
+    margin:5px 0px;
+}
+
+input[type='radio']{
+    margin-right: 5px;
+}
+
+label{
+    margin-bottom:15px;
+}

@@ -1,0 +1,61 @@
+body{
+    overflow-x: hidden;
+}
+
+header, nav{
+    padding: 10px 0px;
+    background:darkblue;
+}
+
+header a{
+    margin:5px;
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+header a:hover, nav a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.filter li{
+    display: flex;
+}
+
+nav ul li{
+    padding: 20px 0px;
+}
+
+nav ul li a{
+    padding:20px 25px;
+    color: whitesmoke;
+}
+
+nav ul li p{
+    color: whitesmoke;
+    margin-right: 25px;
+    padding:0px;
+}
+
+nav ul li a:hover{
+    background: dodgerblue;
+}
+
+footer{
+    background: rgb(20,20,20);
+    color:whitesmoke;
+}
+
+footer a{
+    color: gainsboro;
+}
+
+footer a:hover{
+    color: dodgerblue;
+    text-decoration: none;
+}
